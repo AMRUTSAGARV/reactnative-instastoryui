@@ -1,20 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+// import { StatusBar } from 'expo-status-bar';
+import { Text, View } from 'react-native';
+import Ionicons from "react-native-vector-icons/Ionicons";
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <Text style={{fontFamily: "Lobster-Regular"}}>
+        Hello WO
+        </Text>
+        <Ionicons name='play' style={{fontsize: 20}}/>
+      
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
